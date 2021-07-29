@@ -26,5 +26,12 @@ jobs:
 
       - name: Test 🚨
         run: npm test
+        
+      - name: Build 
+        run: npm build
+        
+      - name: deploy
+        run: npm deploy 
+       
 
       
